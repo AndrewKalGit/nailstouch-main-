@@ -15,13 +15,16 @@ export async function GET(request: Request) {
     }
 
     // Check if this email is in the allowed admin list
+    console.log('Google email:', JSON.stringify(data.user?.email))
+
     const { data: adminUser, error: adminError } = await supabase
       .from('admin_users')
       .select('*')
       .eq('email', data.user?.email)
       .eq('is_active', true)
       .single()
-
+    
+    console.log('Admin user found:', adminUser, 'Error:', adminError)
     if (adminError || !adminUser) {
       // Sign out the user if not an admin
       await supabase.auth.signOut()
