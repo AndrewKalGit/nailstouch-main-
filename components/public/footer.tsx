@@ -11,7 +11,7 @@ interface FooterProps {
 }
 
 export function Footer({
-  salonName = 'Luxe Nail Studio',
+  salonName = 'Nails Touch',
   phone,
   email,
   address,

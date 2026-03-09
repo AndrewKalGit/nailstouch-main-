@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   description: 'Browse our stunning nail art gallery featuring customer reviews, nail designs, prices, and inspiration. See real results from our expert nail technicians.',
   keywords: ['nail art gallery', 'nail designs', 'customer reviews', 'manicure results', 'nail inspiration', 'before after nails'],
   openGraph: {
-    title: 'Nail Art Gallery & Customer Reviews | Luxe Nail Studio',
+    title: 'Nail Art Gallery & Customer Reviews | Nails Touch',
     description: 'Browse our stunning nail art gallery featuring customer reviews and nail design inspiration.',
     type: 'website',
     images: ['/og-gallery.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nail Art Gallery & Customer Reviews | Luxe Nail Studio',
+    title: 'Nail Art Gallery & Customer Reviews | Nails Touch',
     description: 'Browse our stunning nail art gallery featuring customer reviews and nail design inspiration.',
   },
 }

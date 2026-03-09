@@ -3,9 +3,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     default: 'Admin Dashboard',
-    template: '%s | Admin - Luxe Nail Studio',
+    template: '%s | Admin - Nails Touch',
   },
-  description: 'Admin dashboard for managing Luxe Nail Studio content',
+  description: 'Admin dashboard for managing Nails Touch content',
   robots: {
     index: false,
     follow: false,

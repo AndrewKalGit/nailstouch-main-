@@ -8,13 +8,13 @@ import { createClient } from '@/lib/supabase/server'
 import { Calendar, Clock, Phone, Mail, MapPin, ExternalLink } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Book Your Appointment | Luxe Nail Studio',
+  title: 'Book Your Appointment | Nails Touch',
   description:
-    'Schedule your nail appointment at Luxe Nail Studio. Easy online booking for manicures, pedicures, nail art, and more.',
+    'Schedule your nail appointment at Nails Touch. Easy online booking for manicures, pedicures, nail art, and more.',
   openGraph: {
-    title: 'Book Your Appointment | Luxe Nail Studio',
+    title: 'Book Your Appointment | Nails Touch',
     description:
-      'Schedule your nail appointment at Luxe Nail Studio. Easy online booking for manicures, pedicures, nail art, and more.',
+      'Schedule your nail appointment at Nails Touch. Easy online booking for manicures, pedicures, nail art, and more.',
   },
 }
 
@@ -41,7 +41,7 @@ export default async function BookingPage() {
   const phone = getSettingValue('phone') || '(555) 123-4567'
   const email = getSettingValue('email') || 'hello@luxenailstudio.com'
   const address = getSettingValue('address') || '123 Beauty Lane, Suite 100, Los Angeles, CA 90001'
-  const salonName = getSettingValue('salon_name') || 'Luxe Nail Studio'
+  const salonName = getSettingValue('salon_name') || 'Nails Touch'
 
   return (
     <>

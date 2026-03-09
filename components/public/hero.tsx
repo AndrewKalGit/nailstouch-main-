@@ -9,7 +9,7 @@ interface HeroProps {
 }
 
 export function Hero({
-  salonName = 'Luxe Nail Studio',
+  salonName = 'Nails Touch',
   tagline = 'Where Beauty Meets Artistry',
   bookingUrl = '/booking',
 }: HeroProps) {

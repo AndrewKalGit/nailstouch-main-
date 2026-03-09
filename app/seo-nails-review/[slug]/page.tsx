@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: item.meta_title || item.title,
-    description: item.meta_description || item.description || `View ${item.title} nail design with customer review and pricing at Luxe Nail Studio.`,
+    description: item.meta_description || item.description || `View ${item.title} nail design with customer review and pricing at Nails Touch.`,
     keywords: item.tags?.join(', ') || 'nail art, nail design',
     openGraph: {
       title: item.meta_title || item.title,

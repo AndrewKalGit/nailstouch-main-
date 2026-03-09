@@ -16,14 +16,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Luxe Nail Studio | Premium Nail Salon & Spa',
-    template: '%s | Luxe Nail Studio'
+    default: 'Nails Touch | Premium Nail Salon & Spa',
+    template: '%s | Nails Touch'
   },
-  description: 'Luxe Nail Studio offers premium manicures, pedicures, gel nails, acrylics, and stunning nail art in Los Angeles. Expert technicians, luxurious atmosphere, and stunning results. Book your appointment today.',
+  description: 'Nails Touch offers premium manicures, pedicures, gel nails, acrylics, and stunning nail art in Los Angeles. Expert technicians, luxurious atmosphere, and stunning results. Book your appointment today.',
   keywords: ['nail salon', 'manicure', 'pedicure', 'nail art', 'gel nails', 'acrylic nails', 'Los Angeles nail salon', 'luxury nail spa', 'chrome nails', 'nail extensions', 'spa pedicure'],
-  authors: [{ name: 'Luxe Nail Studio' }],
-  creator: 'Luxe Nail Studio',
-  publisher: 'Luxe Nail Studio',
+  authors: [{ name: 'Nails Touch' }],
+  creator: 'Nails Touch',
+  publisher: 'Nails Touch',
   formatDetection: {
     email: false,
     address: false,
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Luxe Nail Studio | Premium Nail Salon & Spa',
-    description: 'Experience luxury nail care at Luxe Nail Studio. Premium manicures, pedicures, and stunning nail art by expert technicians.',
+    title: 'Nails Touch | Premium Nail Salon & Spa',
+    description: 'Experience luxury nail care at Nails Touch. Premium manicures, pedicures, and stunning nail art by expert technicians.',
     url: 'https://luxenailstudio.com',
-    siteName: 'Luxe Nail Studio',
+    siteName: 'Nails Touch',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Luxe Nail Studio - Premium Nail Salon',
+        alt: 'Nails Touch - Premium Nail Salon',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Luxe Nail Studio | Premium Nail Salon & Spa',
-    description: 'Experience luxury nail care at Luxe Nail Studio. Premium manicures, pedicures, and stunning nail art.',
+    title: 'Nails Touch | Premium Nail Salon & Spa',
+    description: 'Experience luxury nail care at Nails Touch. Premium manicures, pedicures, and stunning nail art.',
     images: ['/og-image.jpg'],
   },
   robots: {

@@ -20,7 +20,7 @@ interface HeaderProps {
   phone?: string
 }
 
-export function Header({ salonName = 'Luxe Nail Studio', bookingUrl = '#', phone }: HeaderProps) {
+export function Header({ salonName = 'Nails Touch', bookingUrl = '#', phone }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
